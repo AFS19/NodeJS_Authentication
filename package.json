@@ -1,0 +1,30 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "make an authentication example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AFS19/NodeJS-authentication.git"
+  },
+  "author": "Mohamed AFSSAS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AFS19/NodeJS-authentication/issues"
+  },
+  "homepage": "https://github.com/AFS19/NodeJS-authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
